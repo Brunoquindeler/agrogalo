@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Loja AgroGalo">
+    <meta name="keywords" content="Agropecuaria, Pets, Rações">
+    <meta name="author" content="Bruno Quindeler">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Fontes Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+        <link rel="shortcut icon" href="favicon.ico"> 
+
+
+    <title>AgroGalo - Início</title>
+  </head>
+  <body style="background-color: #E6DB74;">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-center" href="./index.html"><img src="./images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html"><i class="fas fa-home"></i> Início
+                <span class="sr-only">(atual)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobre.html"><i class="fas fa-question-circle"></i> Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./produtos.html"><i class="fas fa-shopping-cart"></i> Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contato.html"><i class="fas fa-envelope"></i> Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cadastro.html"><i class="fas fa-user-plus"></i> Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+</nav>
+
+
+<div class="primary-div">
+    <div id="carouselhome" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" style="height: 450px;" src="./images/home.jpg" alt="Primeiro slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" style="height: 450px;" src="./images/home2.jpg" alt="Segundo slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" style="height: 450px;" src="./images/home3.jpg" alt="Terceiro slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" style="height: 450px;" src="./images/home4.jpg" alt="Quarto slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselhome" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselhome" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+   
+    <div class="col-sm">
+      <div class="card border-dark mb-3">
+        
+            <button type="button" data-toggle="modal" data-target="#Modal-1">
+                <img class="card-img-top" src="./images/aves.jpg" alt="Card image cap">
+            </button>
+          <div class="card-body">
+            <h5 class="card-title text-center">Aves</h5>
+               <p class="card-text"></p>
+          </div>
+      </div>
+    </div>
+    
+    <div class="col-sm">
+      <div class="card border-dark mb-3">
+        <button type="button" data-toggle="modal" data-target="#Modal-2">
+                <img class="card-img-top" src="./images/peixes.jpg" alt="Card image cap">
+            </button>
+          <div class="card-body">
+            <h5 class="card-title text-center">Peixes</h5>
+              <p class="card-text"></p>
+          </div>
+      </div>
+    </div>
+    
+    <div class="col-sm">
+      <div class="card border-dark mb-3">
+         <button type="button" data-toggle="modal" data-target="#Modal-3">
+                <img class="card-img-top" src="./images/racoes.jpg" alt="Card image cap">
+            </button><!-- img de 100x180px   400-600-->
+          <div class="card-body">
+            <h5 class="card-title text-center">Rações</h5>
+              <p class="card-text"></p>
+          </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+<!-- Modal-1 -->
+<div class="modal fade" id="Modal-1" tabindex="-1" role="dialog" aria-labelledby="Modal-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Modal-1">Aves</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <div class="modal-body">
+                <div id="carouselaves" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="./images/aves.jpg" alt="Primeiro slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/aves2.jpg" alt="Segundo slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/aves4.jpg" alt="Terceiro slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/aves5.jpg" alt="Quarto slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/aves3.jpg" alt="Quinto slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselaves" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselaves" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+        </div>
+      <div class="modal-footer">
+        PREÇO DE 5 - 300  R$
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal-2 -->
+<div class="modal fade" id="Modal-2" tabindex="-1" role="dialog" aria-labelledby="Modal-2" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Modal-2">Peixes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div id="carouselpeixes" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="./images/peixes.jpg" alt="Primeiro slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/peixes2.jpg" alt="Segundo slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/peixes3.jpg" alt="Terceiro slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/peixes4.jpg" alt="Quarto slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/peixes5.jpg" alt="Quinto slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/peixes6.jpg" alt="Sexto slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselpeixes" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselpeixes" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+     
+      </div>
+    <div class="modal-footer">
+        PREÇO DE 5 - 300  R$
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal-3 -->
+<div class="modal fade" id="Modal-3" tabindex="-1" role="dialog" aria-labelledby="Modal-3" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Modal-3">Racões</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div id="carouselracoes" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="./images/racoes.jpg" alt="Primeiro slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/racoes2.jpg" alt="Segundo slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/racoes3.jpg" alt="Terceiro slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/racoes4.jpg" alt="Quarto slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselracoes" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselracoes" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+
+      </div>
+      <div class="modal-footer">
+        <p class="text-center">PREÇO DE 5 - 300  R$</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="py-2 bg-warning">
+      <div class="container">
+
+        <p class="m-0 text-center text-body">
+         
+          <a href="https://www.facebook.com/agrogalo.galo.9" target="_blank" title="Ir para o Facebook"><i class="fab fa-facebook-f social-link"></i></a>
+          
+          <a href="https://www.instagram.com/victorbc_16/" target="_blank" title="Ir para o Instagram"><i class="fab fa-instagram social-link"></i></a>
+        
+        </p>
+      </div>
+      <!-- /.container -->
+          <p class="m-0 text-center text-body"> © Todos os direitos reservados. </p>
+          <p class="m-0 text-center text-body">Desenvolvido por: &nbsp <a href="https://github.com/Brunoquindeler" target="_blank" title="Ir para meu GitHub"><strong><i class="fab fa-github social-link"></i> Bruno Quindeler.</strong></a></p>
+          <p class="m-0 text-center text-body">2018</p>
+</footer>
+    
+        <!--JS-->
+    <script type="text/javascript" language="javascript" src="js/jquery-3.3.1.js"></script>
+        <script src="js/btop.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <a href="./index.html" class="voltar-ao-topo"><img src="./images/up.png"></a>
+  </body>
+
+</html>
